@@ -549,3 +549,12 @@ FileETag None
 # <IfModule mod_headers.c>
 #    Header set Connection Keep-Alive
 # </IfModule>
+
+# ----------------------------------------------------------------------
+# Hide Extensions in URL
+# ----------------------------------------------------------------------
+<IfModule mod_rewrite.c>
+  RewriteCond %{REQUEST_FILENAME}.php -f
+  RewriteCond %{REQUEST_URI} !/$
+  RewriteRule (.*) $1\.php [L]
+</IfModule>
