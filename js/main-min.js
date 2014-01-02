@@ -1,1 +1,1 @@
-;
+$(document).ready(function(){$("a[href*=#]").each(function(){if(location.pathname.replace(/^\//,"")===this.pathname.replace(/^\//,"")&&location.hostname===this.hostname&&this.hash.replace(/#/,"")){var e=$(this.hash),t=$("[name="+this.hash.slice(1)+"]"),n=e.length?e:t.length?t:!1;if(n){var r=n.offset().top;$(this).click(function(){$("nav li a").removeClass("active");$(this).addClass("active");$("html, body").animate({scrollTop:r},1e3);return!1})}}})});

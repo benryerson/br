@@ -1,6 +1,6 @@
 		</div> <!-- end Main Content -->
 		<footer class="clearfix">
-			<p>All content &copy; 2013 <a href="http://www.benryerson.com">Ben Ryerson</a></p>
+			<p>All content &copy; 2014 <a href="http://www.benryerson.com">Ben Ryerson</a></p>
 		</footer>
 	</div> <!-- close page wrap -->
 
